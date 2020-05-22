@@ -2,9 +2,14 @@
 <html>
 <head>
 	<title> Virtual Harmonium </title>
+	<meta name="description" content="Online Virtual Harmonium in your browser.">
+	<meta name="author" content="Pushkar Patkar">
+
+
 </head>
 
-<body style="background-image: url('data/img/sideblock.png')">
+<!--body style="background-image: url('data/img/sideblock.png')"-->
+<body style="background-color: burlywood">
 
 <center>
 
@@ -29,84 +34,88 @@
 	+-------+--------+-------+
 	  <wx2>   <wx2>   <wx2> 
 	  
-	wx1 = 20
-	wx2 = 30
-	bx  = 20 ==> bx/2 = 10 
-	by  = 60
-	wy2 = 120
-	//wx3 = 10
-	//wy1 = 60
+	wx2 = 50
+	bx  = 36 
+	by  = 100
+	wy2 = 200
 -->
 
-<svg width="700" height="200">
+<svg width="1150" height="300">
+<!-- border first -->
+	<rect x="0" y="0" width="1150" height="300"
+		style="fill:peru;	stroke:black;	stroke-width:1;" />
 <!-- draw all white first -->
 	<!--polygon points="0,0,20,0,20,60,30,60,30,120,0,120"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('C4').play()" />
 		don't complicate, go simple -->
-	<polygon points="0,0,30,0,30,120,0,120"
+	<!--polygon points="0,0,30,0,30,120,0,120"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('C4').play()" />
-	<polygon points="30,0,60,0,60,120,30,120"
+		further simple -->
+	<rect x="50" y="50" width="50" height="200"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('C4').play()" />
+	<rect x="100" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('D4').play()" />
-	<polygon points="60,0,90,0,90,120,60,120"
+	<rect x="150" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('E4').play()" />
-	<polygon points="90,0,120,0,120,120,90,120"
+	<rect x="200" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('F4').play()" />
-	<polygon points="120,0,150,0,150,120,120,120"
+	<rect x="250" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('G4').play()" />
-	<polygon points="150,0,180,0,180,120,150,120"
+	<rect x="300" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('A4').play()" />
-	<polygon points="180,0,210,0,210,120,180,120"
+	<rect x="350" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('B4').play()" />
 		
-	<polygon points="210,0,240,0,240,120,210,120"
+	<rect x="400" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"		
 		onclick="document.getElementById('C5').play()" />
-	<polygon points="240,0,270,0,270,120,240,120"
+	<rect x="450" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('D5').play()" />
-	<polygon points="270,0,300,0,300,120,270,120"
+	<rect x="500" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('E5').play()" />
-	<polygon points="300,0,330,0,330,120,300,120"
+	<rect x="550" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('F5').play()" />
-	<polygon points="330,0,360,0,360,120,330,120"
+	<rect x="600" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('G5').play()" />
-	<polygon points="360,0,390,0,390,120,360,120"
+	<rect x="650" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('A5').play()" />
-	<polygon points="390,0,420,0,420,120,390,120"
+	<rect x="700" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('B5').play()" />
 		
-	<polygon points="420,0,450,0,450,120,420,120"
+	<rect x="750" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"		
 		onclick="document.getElementById('C6').play()" />
-	<polygon points="450,0,480,0,480,120,450,120"
+	<rect x="800" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('D6').play()" />
-	<polygon points="480,0,510,0,510,120,480,120"
+	<rect x="850" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('E6').play()" />
-	<polygon points="510,0,540,0,540,120,510,120"
+	<rect x="900" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('F6').play()" />
-	<polygon points="540,0,570,0,570,120,540,120"
+	<rect x="950" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('G6').play()" />
-	<polygon points="570,0,600,0,600,120,570,120"
+	<rect x="1000" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('A6').play()" />
-	<polygon points="600,0,630,0,630,120,600,120"
+	<rect x="1050" y="50" width="50" height="200"
 		style="fill:white;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('B6').play()" />
 	<!--polygon points="630,0,660,0,660,120,630,120"
@@ -115,60 +124,60 @@
 		
 		
 <!-- now draw black over white ones -->
-	<polygon points="20,0,40,0,40,60,20,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="82" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('C4_').play()" />
-	<polygon points="50,0,70,0,70,60,50,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="132" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('D4_').play()" />
-	<polygon points="110,0,130,0,130,60,110,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="232" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('F4_').play()" />
-	<polygon points="140,0,160,0,160,60,140,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="282" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('G4_').play()" />
-	<polygon points="170,0,190,0,190,60,170,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="332" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('A4_').play()" />
 		
-	<polygon points="230,0,250,0,250,60,230,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="432" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('C5_').play()" />
-	<polygon points="260,0,280,0,280,60,260,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="482" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('D5_').play()" />
-	<polygon points="320,0,340,0,340,60,320,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="582" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('F5_').play()" />
-	<polygon points="350,0,370,0,370,60,350,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="632" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('G5_').play()" />
-	<polygon points="380,0,400,0,400,60,380,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="682" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('A5_').play()" />
 		
-	<polygon points="440,0,460,0,460,60,440,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="782" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('C6_').play()" />
-	<polygon points="470,0,490,0,490,60,470,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="832" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('D6_').play()" />
-	<polygon points="530,0,550,0,550,60,530,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="932" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('F6_').play()" />
-	<polygon points="560,0,580,0,580,60,560,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="982" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('G6_').play()" />
-	<polygon points="590,0,610,0,610,60,590,60"
-		style="fill:black;	stroke:white;	stroke-width:1;"
+	<rect x="1032" y="50" width="36" height="100"
+		style="fill:black;	stroke:black;	stroke-width:1;"
 		onclick="document.getElementById('A6_').play()" />
-		
 		
 </svg>
 
 </center>
 <hr>
 Created and Maintained by <a href="https://pushkar147.github.io"> Pushkar Patkar.</a>
+<hr>
 
 <!--------------------- Audio tones ----------------------->
 

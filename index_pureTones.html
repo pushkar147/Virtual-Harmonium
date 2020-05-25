@@ -15,6 +15,38 @@
 
 <div include-HTML = "common.html"> </div>
 
+<!-- user configurations -->
+<br><br>
+<center><table>
+    <colgroup>
+       <col style="width: 300px">
+    </colgroup>
+    <tr>
+    	<th>	Sound  	</th>
+    	<th>	Notations  	</th>
+    </tr>
+	<tr>
+		<td>
+			<form>
+				<input type="radio" id="real_sound" name="sound" value="real" onclick="selectSound()">
+				<label for="real_sound"">Use Harmonium-like sound</label> <br>
+				<input type="radio" id="pure_sound" name="sound" value="pure" onclick="selectSound()" checked="checked">
+				<label for="pure_sound">Use pure tones</label>
+			</form>
+		</td>
+		<td>
+			<form>
+				<input type="radio" id="no_notaions" name="notation" value="none" checked="checked" onClick="displayNotations()">
+				<label for="no_notaions"">None</label> <br>
+				<input type="radio" id="western_notations" name="notation" value="western"  onClick="displayNotations()">
+				<label for="western_notations">Display Piano notaions</label>
+			</form>
+		</td>
+	</tr>
+</table></center>
+
+<div include-HTML = "footer.html"> </div>
+
 <script> includeHTML(); </script>
 
 <!--------------------- Audio tones ----------------------->

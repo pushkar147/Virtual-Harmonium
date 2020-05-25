@@ -86,3 +86,27 @@ function displayNotations()
 			document.getElementById("hb5").innerHTML = "A6#";
 	}		
 }
+
+function checkButton(id)
+{
+	document.getElementById(id).checked = true;
+}
+
+function selectSound(id)
+{
+	var elt = document.getElementsByName("sound");
+	var sound;
+
+	for(i = 0; i < elt.length; i++)
+		if(elt[i].checked)
+			sound = elt[i].value;
+
+	if (sound == "real")
+	{
+		window.location.href = 'index.html'
+	}
+	else
+	{
+		window.location.href = 'index_pureTones.html'
+	}
+}

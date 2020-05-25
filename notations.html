@@ -1,0 +1,12 @@
+	<input type="radio" id="no_notaions" name="notation" value="none" checked="checked" onClick="displayNotations()">
+	<label for="no_notaions"">None</label> <br>
+	<input type="radio" id="western_notations" name="notation" value="western"  onClick="displayNotations()">
+	<label for="western_notations">Piano notaions</label> <br>
+	
+	<input type="radio" id="indian_notations" name="notation" value="indian"  onClick="displayNotations(); document.getElementById('scales').disabled = false">
+	<label for="indian_notations">Indian notations</label> &emsp;
+	
+		<label for="scales">Choose a scale:</label>
+		<select name="scale" id="scales" disabled>
+			<option value="F#">F# scale </option>
+		</select> 

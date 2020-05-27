@@ -30,37 +30,9 @@ function displayNotations()
 						"Sa.","re.","Re.","ga.","Ga.","ma.","Ma.","Pa.","dha.","Dha.","ni.","Ni.",
 						" "," "," "," "," "];
 						
-		var sel = document.getElementById("scales");
-		var scale = sel.options[sel.selectedIndex].value;
-		var st; // starting index
-		
-		if(scale == "F#")
-			st = 11;
-		else if(scale == "G")
-			st = 10;
-		else if(scale == "G#")
-			st = 9;
-		else if(scale == "A")
-			st = 8;
-		else if(scale == "A#")
-			st = 7;
-		else if(scale == "B")
-			st = 6;
-		else if(scale == "C") 
-			st = 5;
-		else if(scale == "C#")
-			st = 4;
-		else if(scale == "D")
-			st = 3;
-		else if(scale == "D#")
-			st = 2;
-		else if(scale == "E")
-			st = 1;
-		else if(scale == "F")
-			st = 0;
-		else
-			st = 5;
-		
+		var scales = document.getElementById("scales");
+		var st = 11 - scales.selectedIndex; // starting index
+						
 		for(i = 0; i < 36; i++)
 			notations[i] = all_notes[st + i];
 	}

@@ -4,10 +4,10 @@
 	<label for="western_notations">Western notations (Piano notaions)</label> <br>
 	
 	<input type="radio" id="indian_notations" name="notation" value="indian"  onClick="document.getElementById('scales').disabled = false; displayNotations();">
-	<label for="indian_notations">Indian notations (भारतीय स्वर) </label> &emsp;
+	<label for="indian_notations">Indian notations </label> &emsp;
 	
 		<label for="scales">Choose a scale:</label>
-		<select name="scale" id="scales" disabled>
+		<!--select name="scale" id="scales" disabled>
 			<option value="F#">F# scale (मंद्र सप्तकातील काळी ३) </option>
 			<option value="G">G scale (मंद्र सप्तकातील पांढरी ५) </option>
 			<option value="G#">G# scale (मंद्र सप्तकातील काळी ४) </option>
@@ -20,4 +20,18 @@
 			<option value="D#">D# scale (काळी २) </option>
 			<option value="E">E scale (पांढरी ३) </option>
 			<option value="F">F scale (पांढरी ४) </option>
+		</select-->
+		<select name="scale" id="scales" disabled onClick="displayNotations()">
+			<option value="F#">F# scale (Lower octave, black 3) </option>
+			<option value="G">G scale (Lower octave, white 5) </option>
+			<option value="G#">G# scale (Lower octave, black 4) </option>
+			<option value="A">A scale (Lower octave, white 6) </option>
+			<option value="A#">A# scale (Lower octave, black 5) </option>
+			<option value="B">B scale (Lower octave, white 7) </option>
+			<option value="C" selected="selected">C scale (Middle octave, white 1) </option>
+			<option value="C#">C# scale (Middle octave, white ) </option>
+			<option value="D">D scale (Middle octave, white 2) </option>
+			<option value="D#">D# scale (Middle octave, black 2) </option>
+			<option value="E">E scale (Middle octave, white 3) </option>
+			<option value="F">F scale (Middle octave, white 4) </option>
 		</select> 

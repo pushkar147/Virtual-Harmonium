@@ -3,7 +3,7 @@
 	<input type="radio" id="western_notations" name="notation" value="western"  onClick="displayNotations(); document.getElementById('scales').disabled = true">
 	<label for="western_notations">Western notations (Piano notaions)</label> <br>
 	
-	<input type="radio" id="indian_notations" name="notation" value="indian"  onClick="displayNotations(); document.getElementById('scales').disabled = false">
+	<input type="radio" id="indian_notations" name="notation" value="indian"  onClick="document.getElementById('scales').disabled = false; displayNotations();">
 	<label for="indian_notations">Indian notations (भारतीय स्वर) </label> &emsp;
 	
 		<label for="scales">Choose a scale:</label>

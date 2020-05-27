@@ -1,12 +1,23 @@
-	<input type="radio" id="no_notaions" name="notation" value="none" checked="checked" onClick="displayNotations()">
+	<input type="radio" id="no_notaions" name="notation" value="none" checked="checked" onClick="displayNotations(); document.getElementById('scales').disabled = true">
 	<label for="no_notaions"">None</label> <br>
-	<input type="radio" id="western_notations" name="notation" value="western"  onClick="displayNotations()">
-	<label for="western_notations">Piano notaions</label> <br>
+	<input type="radio" id="western_notations" name="notation" value="western"  onClick="displayNotations(); document.getElementById('scales').disabled = true">
+	<label for="western_notations">Western notations (Piano notaions)</label> <br>
 	
 	<input type="radio" id="indian_notations" name="notation" value="indian"  onClick="displayNotations(); document.getElementById('scales').disabled = false">
-	<label for="indian_notations">Indian notations</label> &emsp;
+	<label for="indian_notations">Indian notations (भारतीय स्वर) </label> &emsp;
 	
 		<label for="scales">Choose a scale:</label>
 		<select name="scale" id="scales" disabled>
-			<option value="F#">F# scale </option>
+			<option value="F#">F# scale (मंद्र सप्तकातील काळी ३) </option>
+			<option value="G">G scale (मंद्र सप्तकातील पांढरी ५) </option>
+			<option value="G#">G# scale (मंद्र सप्तकातील काळी ४) </option>
+			<option value="A">A scale (मंद्र सप्तकातील पांढरी ६) </option>
+			<option value="A#">A# scale (मंद्र सप्तकातील काळी ५) </option>
+			<option value="B">B scale (मंद्र सप्तकातील पांढरी ७) </option>
+			<option value="C" selected="selected">C scale (पांढरी १) </option>
+			<option value="C#">C# scale (काळी १) </option>
+			<option value="D">D scale (पांढरी २) </option>
+			<option value="D#">D# scale (काळी २) </option>
+			<option value="E">E scale (पांढरी ३) </option>
+			<option value="F">F scale (पांढरी ४) </option>
 		</select> 

@@ -28,7 +28,7 @@ function displayNotations()
 						".Sa",".re",".Re",".ga",".Ga",".ma",".Ma",".Pa",".dha",".Dha",".ni",".Ni",
 						"Sa","re","Re","ga","Ga","ma","Ma","Pa","dha","Dha","ni","Ni",
 						"Sa.","re.","Re.","ga.","Ga.","ma.","Ma.","Pa.","dha.","Dha.","ni.","Ni.",
-						" "," "," "," "," "];
+						" "," "," "," "," "," "];
 						
 		var scales = document.getElementById("scales");
 		var st = 11 - scales.selectedIndex; // starting index

@@ -1,0 +1,205 @@
+<svg width="460" height="200">
+<!-- border first -->
+	<rect x="0" y="0" width="460" height="200"
+		style="fill:peru;	stroke:black;	stroke-width:1;" />
+<!-- draw all white first -->
+	<rect x="20" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('C4').play()" />
+	<rect x="40" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('D4').play()" />
+	<rect x="60" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('E4').play()" />
+	<rect x="80" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('F4').play()" />
+	<rect x="100" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('G4').play()" />
+	<rect x="120" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('A4').play()" />
+	<rect x="140" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('B4').play()" />
+		
+	<rect x="160" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"		
+		onclick="document.getElementById('C5').play()" />
+	<rect x="180" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('D5').play()" />
+	<rect x="200" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('E5').play()" />
+	<rect x="220" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('F5').play()" />
+	<rect x="240" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('G5').play()" />
+	<rect x="260" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('A5').play()" />
+	<rect x="280" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('B5').play()" />
+		
+	<rect x="300" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"		
+		onclick="document.getElementById('C6').play()" />
+	<rect x="320" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('D6').play()" />
+	<rect x="340" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('E6').play()" />
+	<rect x="360" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('F6').play()" />
+	<rect x="380" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('G6').play()" />
+	<rect x="400" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('A6').play()" />
+	<rect x="420" y="100" rx="6" ry="6" width="20" height="80"
+		style="fill:white;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('B6').play()" />		
+		
+<!-- now draw black over white ones -->
+	<rect x="33" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('C4_').play()" />
+	<rect x="53" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('D4_').play()" />
+	<rect x="93" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('F4_').play()" />
+	<rect x="113" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('G4_').play()" />
+	<rect x="133" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('A4_').play()" />
+		
+	<rect x="173" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('C5_').play()" />
+	<rect x="193" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('D5_').play()" />
+	<rect x="233" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('F5_').play()" />
+	<rect x="253" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('G5_').play()" />
+	<rect x="273" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('A5_').play()" />
+		
+	<rect x="313" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('C6_').play()" />
+	<rect x="333" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('D6_').play()" />
+	<rect x="373" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('F6_').play()" />
+	<rect x="393" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('G6_').play()" />
+	<rect x="413" y="100" rx="6" ry="8" width="14" height="44"
+		style="fill:black;	stroke:black;	stroke-width:1;"
+		onclick="document.getElementById('A6_').play()" />
+
+<!-- display notations for swar , default is blank -->
+	<text x="25" y="176" fill="black" style="font-size: 6px" id="lw1">  </text> <!-- lower octave white 1 -->
+	<text x="45" y="176" fill="black" style="font-size: 6px" id="lw2">  </text>
+	<text x="65" y="176" fill="black" style="font-size: 6px" id="lw3">  </text>
+	<text x="85" y="176" fill="black" style="font-size: 6px" id="lw4">  </text>
+	<text x="105" y="176" fill="black" style="font-size: 6px" id="lw5">  </text>
+	<text x="125" y="176" fill="black" style="font-size: 6px" id="lw6">  </text>
+	<text x="145" y="176" fill="black" style="font-size: 6px" id="lw7">  </text>
+	<text x="165" y="176" fill="black" style="font-size: 6px" id="mw1">  </text>
+	<text x="185" y="176" fill="black" style="font-size: 6px" id="mw2">  </text>
+	<text x="205" y="176" fill="black" style="font-size: 6px" id="mw3">  </text>
+	<text x="225" y="176" fill="black" style="font-size: 6px" id="mw4">  </text>
+	<text x="245" y="176" fill="black" style="font-size: 6px" id="mw5">  </text>
+	<text x="265" y="176" fill="black" style="font-size: 6px" id="mw6">  </text>
+	<text x="285" y="176" fill="black" style="font-size: 6px" id="mw7">  </text>
+	<text x="305" y="176" fill="black" style="font-size: 6px" id="hw1">  </text>
+	<text x="325" y="176" fill="black" style="font-size: 6px" id="hw2">  </text>
+	<text x="345" y="176" fill="black" style="font-size: 6px" id="hw3">  </text>
+	<text x="365" y="176" fill="black" style="font-size: 6px" id="hw4">  </text>
+	<text x="385" y="176" fill="black" style="font-size: 6px" id="hw5">  </text>
+	<text x="405" y="176" fill="black" style="font-size: 6px" id="hw6">  </text>
+	<text x="425" y="176" fill="black" style="font-size: 6px" id="hw7">  </text>
+	
+	<text x="83" y="136" fill="white" style="font-size: 6px" id="lb1">  </text>
+	<text x="133" y="136" fill="white" style="font-size: 6px" id="lb2">  </text>
+	<text x="233" y="136" fill="white" style="font-size: 6px" id="lb3">  </text>
+	<text x="283" y="136" fill="white" style="font-size: 6px" id="lb4">  </text>
+	<text x="333" y="136" fill="white" style="font-size: 6px" id="lb5">  </text>
+	<text x="433" y="136" fill="white" style="font-size: 6px" id="mb1">  </text>
+	<text x="483" y="136" fill="white" style="font-size: 6px" id="mb2">  </text>
+	<text x="583" y="136" fill="white" style="font-size: 6px" id="mb3">  </text>
+	<text x="633" y="136" fill="white" style="font-size: 6px" id="mb4">  </text>
+	<text x="683" y="136" fill="white" style="font-size: 6px" id="mb5">  </text>
+	<text x="783" y="136" fill="white" style="font-size: 6px" id="hb1">  </text>
+	<text x="833" y="136" fill="white" style="font-size: 6px" id="hb2">  </text>
+	<text x="933" y="136" fill="white" style="font-size: 6px" id="hb3">  </text>
+	<text x="983" y="136" fill="white" style="font-size: 6px" id="hb4">  </text>
+	<text x="1033" y="136" fill="white" style="font-size: 6px" id="hb5">  </text>
+	
+<!-- draw something extra, varachi fali -->
+	<rect x="20" y="20" rx="8" ry="8" width="420" height="72"
+		style="fill:peru;	stroke:black;	stroke-width:1;" />
+	<circle cx="40" cy="32" r="8" fill="black" />
+	<circle cx="60" cy="56" r="8" fill="black" />
+	<circle cx="40" cy="80" r="8" fill="black" />
+	<circle cx="80" cy="32" r="8" fill="black" />
+	<circle cx="100" cy="56" r="8" fill="black" />
+	<circle cx="80" cy="80" r="8" fill="black" />
+	<circle cx="120" cy="32" r="8" fill="black" />
+	<circle cx="140" cy="56" r="8" fill="black" />
+	<circle cx="120" cy="80" r="8" fill="black" />
+	<circle cx="160" cy="32" r="8" fill="black" />
+	<circle cx="180" cy="56" r="8" fill="black" />
+	<circle cx="160" cy="80" r="8" fill="black" />
+	<circle cx="200" cy="32" r="8" fill="black" />
+	<circle cx="220" cy="56" r="8" fill="black" />
+	<circle cx="200" cy="80" r="8" fill="black" />
+	<circle cx="240" cy="32" r="8" fill="black" />
+	<circle cx="260" cy="56" r="8" fill="black" />
+	<circle cx="240" cy="80" r="8" fill="black" />
+	<circle cx="280" cy="32" r="8" fill="black" />
+	<circle cx="300" cy="56" r="8" fill="black" />
+	<circle cx="280" cy="80" r="8" fill="black" />
+	<circle cx="320" cy="32" r="8" fill="black" />
+	<circle cx="340" cy="56" r="8" fill="black" />
+	<circle cx="320" cy="80" r="8" fill="black" />
+	<circle cx="360" cy="32" r="8" fill="black" />
+	<circle cx="380" cy="56" r="8" fill="black" />
+	<circle cx="360" cy="80" r="8" fill="black" />
+	<circle cx="400" cy="32" r="8" fill="black" />
+	<circle cx="420" cy="56" r="8" fill="black" />
+	<circle cx="400" cy="80" r="8" fill="black" />
+	
+	<line x1="60" y1="56" x2="40" y2="80" stroke="black" stroke-width="4" />
+	<line x1="80" y1="32" x2="100" y2="56" stroke="black" stroke-width="4" />
+	<line x1="140" y1="56" x2="120" y2="80" stroke="black" stroke-width="4" />
+	<line x1="160" y1="32" x2="180" y2="56" stroke="black" stroke-width="4" />
+	<line x1="220" y1="56" x2="200" y2="80" stroke="black" stroke-width="4" />
+	<line x1="240" y1="32" x2="260" y2="56" stroke="black" stroke-width="4" />
+	<line x1="300" y1="56" x2="280" y2="80" stroke="black" stroke-width="4" />
+	<line x1="320" y1="32" x2="340" y2="56" stroke="black" stroke-width="4" />
+	<line x1="380" y1="56" x2="360" y2="80" stroke="black" stroke-width="4" />
+	<line x1="400" y1="32" x2="420" y2="56" stroke="black" stroke-width="4" />
+		
+</svg>
